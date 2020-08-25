@@ -33,7 +33,7 @@ function assessment(userName){
     let result = answers[index];
     result = result.replace(/\{useName\}/g,userName);
 
-    return resuit;
+    return result;
 }
 
 console.log(assessment('太郎'))；
